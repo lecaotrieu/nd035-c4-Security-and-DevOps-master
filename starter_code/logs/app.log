@@ -1,0 +1,32 @@
+2024-08-11 21:52:56,306 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-B6S3GBJ with PID 234220 (D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code\target\classes started by lecao in D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code)
+2024-08-11 21:52:56,320 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-08-11 21:53:07,403 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 11.874 seconds (JVM running for 15.186)
+2024-08-11 21:53:33,646 ERROR c.e.d.c.UserController [http-nio-8080-exec-1] Password need to longer than 7 characters and equals to confirmPassword
+2024-08-11 21:53:42,401 INFO c.e.d.c.UserController [http-nio-8080-exec-5] User name(dasdd2s1) was successfully created
+2024-08-11 21:53:57,587 INFO c.e.d.c.UserController [http-nio-8080-exec-3] User name(12) was successfully created
+2024-08-11 21:54:02,781 ERROR c.e.d.c.UserController [http-nio-8080-exec-6] Password need to longer than 7 characters and equals to confirmPassword2024-08-11 21:57:43,684 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-B6S3GBJ with PID 231560 (D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code\target\classes started by lecao in D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code)
+2024-08-11 21:57:43,698 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-08-11 21:58:06,802 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-B6S3GBJ with PID 231400 (D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code\target\classes started by lecao in D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code)
+2024-08-11 21:58:06,815 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-08-11 21:58:17,429 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 11.335 seconds (JVM running for 13.995)
+2024-08-11 21:58:20,751 INFO c.e.d.c.UserController [http-nio-8080-exec-2] User name(12) was successfully created
+2024-08-11 21:58:22,350 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-6] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2024-08-11 21:58:22,361 INFO c.e.d.c.UserController [http-nio-8080-exec-6] Exception User name(12) create fail
+2024-08-11 21:58:22,361 INFO c.e.d.c.UserController [http-nio-8080-exec-6] User name(12) was successfully created
+2024-08-11 21:58:23,758 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-7] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2024-08-11 21:58:23,763 INFO c.e.d.c.UserController [http-nio-8080-exec-7] Exception User name(12) create fail
+2024-08-11 21:58:23,763 INFO c.e.d.c.UserController [http-nio-8080-exec-7] User name(12) was successfully created
+2024-08-11 21:58:24,875 ERROR o.h.e.j.s.SqlExceptionHelper [http-nio-8080-exec-10] Unique index or primary key violation: "PUBLIC.UK_SB8BBOUER5WAK8VYIIY4PF2BX_INDEX_2 ON PUBLIC.USER(USERNAME) VALUES 1"; SQL statement:
+insert into user (id, cart_id, password, username) values (null, ?, ?, ?) [23505-199]
+2024-08-11 21:58:24,877 INFO c.e.d.c.UserController [http-nio-8080-exec-10] Exception User name(12) create fail
+2024-08-11 21:58:24,877 INFO c.e.d.c.UserController [http-nio-8080-exec-10] User name(12) was successfully created
+2024-08-11 21:59:06,640 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-B6S3GBJ with PID 233604 (D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code\target\classes started by lecao in D:\Lap_Trinh\project\Udacity\project4\nd035-c4-Security-and-DevOps-master\starter_code)
+2024-08-11 21:59:06,653 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2024-08-11 21:59:17,145 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 11.261 seconds (JVM running for 13.872)
+2024-08-11 22:03:22,866 INFO c.e.d.c.UserController [http-nio-8080-exec-6] User name(12) was successfully created
+2024-08-11 22:03:30,086 INFO c.e.d.c.UserController [http-nio-8080-exec-7] User name(12123123) was successfully created
+2024-08-11 22:06:53,114 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-9] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception
+2024-08-11 22:15:42,414 INFO c.e.d.c.OrderController [http-nio-8080-exec-8] New order was successfully added
+2024-08-11 22:16:05,599 ERROR c.e.d.c.OrderController [http-nio-8080-exec-9] no Username in database
